@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio CSS Avanzado N° 1 - FLEX</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/9e2d2bddba.js" crossorigin="anonymous"> </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+
+
+    </header>
+
+
+    <nav class="sidebar">
+
+        <div>
+
+            <div class=" row maria ">
+
+                <div class="col-3 maria ">
+                    <img class="rounded-circle" src="./assets/img/maria.jpg" alt="maria">
+                    <p class="nombre"><strong>Maria Escobar</strong></p>
+
+                </div>
+
+                <div class="col-3 offset-3 ">
+
+                    <p class="estado">Activa ahora</p>
+
+                </div>
+
+                <div class="col-2">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="botonDiv mt-1 bottom">
+                <button class=" p-1 bg-primary bg-gradient fw-bolder text-white border-1 rounded-2 ">Nuevo Chat</button>
+            </div>
+
+            <ul class=" chat mt-2">
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/2_img.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/3_img.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/5_invitado.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/5_img.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/6_invitado.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/7_img.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/8_img.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/3_invitado.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/2_invitado.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="rounded-1 invitados">
+                    <img class="rounded-circle " src="./assets/img/1_invitado.jpg" alt="maria">
+                    <div class="row">
+                        <div>
+                            <p class="nombreChat"><strong>Gabriela Perez</strong></p>
+
+                        </div>
+                        <div>
+                            <p class="nombreChat"><strong>Estoy hablando de la ....</strong></p>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+        <div class="logo">
+            <div class="img">
+                <img src="./assets/img/hand.png" width="100px" height="100px" alt="logo">
+            </div>
+            <div class="parrafos-central">
+                <h1>Comienza el Nertworking</h1>
+                <p>Presiona el botón “Nuevo chat” para comenzar a crear nuevas</p>
+                <p>redes de contacto para tu empresa o emprendimiento.</p>
+
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+
+<footer class=" footer text-center ">
+
+    <h5>Footer - Trabajo N° 1 - Utilizando Flex CSS Avanzado.</span> </h5>
+
+</footer>
+
+</html>
